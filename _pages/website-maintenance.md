@@ -2,7 +2,12 @@
 ID: 6279
 post_title: Website Maintenance
 author: SEO Anseo
-post_excerpt: ""
+post_excerpt: >
+  Up to date software is an important part
+  of maintaining your website. Updates are
+  simple enough to run yourself but if you
+  don’t have the time or the confidence,
+  we provide a full service.
 layout: page
 permalink: >
   https://www.seoanseo.dev.cc/website-maintenance/

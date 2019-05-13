@@ -2,9 +2,14 @@
 ID: 6668
 post_title: Hubspot Development
 author: SEO Anseo
-post_excerpt: ""
+post_excerpt: >
+  HubSpot is the leading inbound marketing
+  and sales software that helps companies
+  attract visitors, convert leads, and
+  close customers.
 layout: page
-permalink: https://seoanseo.ca/hubspot-development/
+permalink: >
+  https://www.seoanseo.dev.cc/hubspot-development/
 published: true
 post_date: 2019-02-04 15:24:36
 ---
@@ -12,7 +17,7 @@ post_date: 2019-02-04 15:24:36
 <div id="x-section-1" class="lesser-width x-section" style="margin: 0px;padding: 45px 0px 0px; background-color: transparent;">
 [column type="1/3" fade="true" fade_animation="in-from-left" fade_animation_offset="45px"]
 <div id="seo" class="center">
-<div class="bigicon seo"><img src="//seoanseo.ca/wp-content/uploads/2018/06/hs90_Hubspot-1.png"></div>
+<div class="bigicon seo"><img src="//www.seoanseo.dev.cc/wp-content/uploads/2018/06/hs90_Hubspot-1.png"></div>
 </div>
 [/column]
 [column type="2/3" last="true" fade="true" fade_animation="in-from-bottom" fade_animation_offset="45px"]

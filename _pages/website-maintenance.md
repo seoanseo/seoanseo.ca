@@ -22,7 +22,7 @@ We show our clients how to update plugins and core site systems themselves. It c
 
 </div>
 [/column]
-[column type="1/3" fade="true" fade_animation="in-from-bottom" fade_animation_offset="45px"]
+[column type="1/3" class="box-styler" fade="true" fade_animation="in-from-bottom" fade_animation_offset="45px"]
 <div class="center">
 <div class="bigicon security"><img src="https://www.seoanseo.dev.cc/wp-content/uploads/2018/11/2SEO-CAD-ICONS_security.png"></div>
 <h2>Security
@@ -31,7 +31,7 @@ Our sites come with advanced security built in. The security software itself tak
 
 </div>
 [/column]
-[column type="1/3" last="true" fade="true" fade_animation="in-from-right" fade_animation_offset="45px"]
+[column type="1/3" class="box-styler" last="true" fade="true" fade_animation="in-from-right" fade_animation_offset="45px"]
 <div class="center">
 <div class="bigicon offsite"><img src="https://www.seoanseo.dev.cc/wp-content/uploads/2018/11/SEO-CAD-ICONS_offsite.png"></div>
 <h2>Off Site

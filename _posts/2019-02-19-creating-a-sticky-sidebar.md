@@ -5,7 +5,7 @@ author: SEO Anseo
 post_excerpt: ""
 layout: post
 permalink: >
-  https://seoanseo.ca/creating-a-sticky-sidebar/
+  https://www.seoanseo.dev.cc/creating-a-sticky-sidebar/
 published: true
 post_date: 2019-02-19 12:41:14
 ---
@@ -138,11 +138,18 @@ position: absolute;
 
 <!-- wp:html -->
 [code]aside {
-  position: -webkit-sticky;
+  position:sticky;
+position: -webkit-sticky;
   position: -moz-sticky;
   position: -ms-sticky;
   position: -o-sticky;
   top: 0;
+}
+
+/* Also note that sticky won't work if an ancestor has overflow hidden so we'll override that */
+
+body, div#top {
+    overflow: visible;
 }
 [/code]
 <!-- /wp:html -->
@@ -215,10 +222,17 @@ jQuery('aside').css('top',minus);
 
 <!-- wp:html -->
 [code]aside {
+  position: sticky;
   position: -webkit-sticky;
   position: -moz-sticky;
   position: -ms-sticky;
   position: -o-sticky;
+}
+
+/* Also note that sticky won't work if an ancestor has overflow hidden so we'll override that */
+
+body, div#top {
+    overflow: visible;
 }
 [/code]
 <!-- /wp:html -->

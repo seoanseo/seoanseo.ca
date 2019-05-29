@@ -66,19 +66,19 @@ var headBot = headTop + jQuery('bg_featured').height();
 var footTop = jQuery('footer').offset().top;
 
 //We want the sidebar to be fixed once the bottom of it comes on screen
-if (elementBot &amp;amp;lt; winBot) {
+if (elementBot &amp;amp;amp;lt; winBot) {
 			jQuery('aside').addClass('sticky-sidebar');
         }
 // When the footer comes on the screen, we do not want the sidebar to be fixed anymore or it will overlap
-if (elementBot &amp;amp;gt; footTop) {
+if (elementBot &amp;amp;amp;gt; footTop) {
 			jQuery('aside').addClass('bottomed-sidebar');
         } 
 // When scrolling back up, we want the sidebar to be fixed again
-if (winBot &amp;amp;lt; footTop) {
+if (winBot &amp;amp;amp;lt; footTop) {
 			jQuery('aside').removeClass('bottomed-sidebar');
         }
 // When we return to the top we don't want the sidebar to be fixed anymore or it will overlap over header content
-if (elementTop &amp;amp;lt; headBot) {
+if (elementTop &amp;amp;amp;lt; headBot) {
             jQuery('aside').removeClass('sticky-sidebar');
         } 
 }

@@ -10,7 +10,7 @@ post_excerpt: >
   roof.
 layout: post
 permalink: >
-  https://seoanseo.ca/setting-up-a-multi-service-booking-system-with-woocommerce/
+  https://www.seoanseo.dev.cc/setting-up-a-multi-service-booking-system-with-woocommerce/
 published: true
 post_date: 2019-01-28 23:09:53
 ---
@@ -47,7 +47,7 @@ post_date: 2019-01-28 23:09:53
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":6614} -->
-<figure class="wp-block-image"><img src="https://seoanseo.ca/wp-content/uploads/2019/01/Screenshot-2019-01-28-19.53.05-1024x576.png" alt="" class="wp-image-6614"/></figure>
+<figure class="wp-block-image"><img src="https://www.seoanseo.dev.cc/wp-content/uploads/2019/01/Screenshot-2019-01-28-19.53.05-1024x576.png" alt="" class="wp-image-6614"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:html -->
@@ -55,7 +55,7 @@ post_date: 2019-01-28 23:09:53
 <!-- /wp:html -->
 
 <!-- wp:image {"id":6617} -->
-<figure class="wp-block-image"><img src="https://seoanseo.ca/wp-content/uploads/2019/01/Screenshot-2019-01-28-20.18.38-1024x576.png" alt="" class="wp-image-6617"/></figure>
+<figure class="wp-block-image"><img src="https://www.seoanseo.dev.cc/wp-content/uploads/2019/01/Screenshot-2019-01-28-20.18.38-1024x576.png" alt="" class="wp-image-6617"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -83,7 +83,7 @@ post_date: 2019-01-28 23:09:53
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":6620} -->
-<figure class="wp-block-image"><img src="https://seoanseo.ca/wp-content/uploads/2019/01/Screenshot-2019-01-28-20.42.19-1024x576.png" alt="" class="wp-image-6620"/></figure>
+<figure class="wp-block-image"><img src="https://www.seoanseo.dev.cc/wp-content/uploads/2019/01/Screenshot-2019-01-28-20.42.19-1024x576.png" alt="" class="wp-image-6620"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
@@ -103,7 +103,7 @@ post_date: 2019-01-28 23:09:53
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":6624} -->
-<figure class="wp-block-image"><img src="https://seoanseo.ca/wp-content/uploads/2019/01/Screenshot-2019-01-28-21.25.43-1024x576.png" alt="" class="wp-image-6624"/></figure>
+<figure class="wp-block-image"><img src="https://www.seoanseo.dev.cc/wp-content/uploads/2019/01/Screenshot-2019-01-28-21.25.43-1024x576.png" alt="" class="wp-image-6624"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

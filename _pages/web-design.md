@@ -1,6 +1,6 @@
 ---
 ID: 6302
-post_title: Web Design/Development
+post_title: Web Development
 author: SEO Anseo
 post_excerpt: >
   A first-class website conveys to your

@@ -10,7 +10,7 @@ post_excerpt: >
   ourselves to high design standards
 layout: page
 permalink: >
-  https://www.seoanseo.dev.cc/home/web-design/
+  https://www.seoanseo.dev.cc/new-home/web-design/
 published: true
 post_date: 2018-10-30 15:33:40
 ---

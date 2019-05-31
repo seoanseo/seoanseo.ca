@@ -23,29 +23,7 @@ We are certified <a href="https://www.google.ca/partners/about/">Google AdWords 
 <div class="green bit">
 <h2>Our digital marketing process:</h2>
 </div>
-<div id="x-section-2" class="x-section" style="margin: 0px;padding: 45px 0px; background-color: transparent;">[column type="1/3" fade="true" fade_animation="in-from-left" fade_animation_offset="45px"]
-<div class="center"><i class="bigicon fa fa-hand-point-up"></i>
-<h2>PPC
-Advertising</h2>
-</div>
-A well-crafted Google AdWords campaign not only drives lots of traffic to your website, it drives the right traffic to your website. This is achieved by targeting your specific audience; by their location, their language, what terms they search and in the case of display advertising you can even target by demographic (age, gender, interests, etc.)
-[/column]
-[column type="1/3" fade="true" fade_animation="in-from-bottom" fade_animation_offset="45px"]
-<div class="center"><i class="bigicon fa fa-users"></i>
-<h2>User&nbsp;Friendly
-Flow</h2>
-</div>
-Clean, fluid design guides your customer seamlessly towards your goals, be it making contact, creating an account or making a purchase. It can make the difference between simply having traffic on your site and having customers on your site.
-[/column]
-[column type="1/3" last="true" fade="true" fade_animation="in-from-right" fade_animation_offset="45px"]
-<div class="center"><i class="bigicon fas fa-chart-line"></i>
-<h2>Traffic
-Analysis</h2>
-</div>
-We use google analytics to analyse traffic flow and performance on your site. It gives us an overview of the entire process (traffic sources, conversion rates, landing page performance and many, many more useful metrics). This allows for the whole thing to be constantly optimized and refined.
-[/column]
-
-</div>
+[service-tiles]
 <div id="x-section-3" class="x-section" style="margin: 0px;padding: 45px 0px; background-color: transparent;">
 [column type="1/1" fade="true" fade_animation="in-from-bottom" fade_duration="4000" fade_animation_offset="45px"]<center>
 <h4 class="nocap">So if you're ready to maximize your reach and be found by the right audience, we'd love to hear from you:</h4>

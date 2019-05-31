@@ -20,7 +20,7 @@ post_date: 2019-02-19 12:41:14
 <!-- wp:paragraph -->
 <p>
 
-Quick note on the below. I'll be writing jQuery each time instead of $ to avoid <a target="_blank" href="https://digwp.com/2011/09/using-instead-of-jquery-in-wordpress/" rel="noreferrer noopener">conflicts with Wordpress's jQuery</a>. I usually find it easiet if I'm just working on something short.<br>You can feel free to wrap you code in:
+Quick note on the below. I'll be writing jQuery each time instead of $ to avoid <a target="_blank" href="https://digwp.com/2011/09/using-instead-of-jquery-in-wordpress/" rel="noreferrer noopener">conflicts with Wordpress's jQuery</a>. I usually find it easiest if I'm just working on something short.<br>You can feel free to wrap you code in:
 
 </p>
 <!-- /wp:paragraph -->

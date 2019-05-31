@@ -7,7 +7,7 @@ post_excerpt: |
   We are certified Google AdWords Partners, with certificates in Search Display, Video and Mobile Advertising.
 layout: page
 permalink: >
-  https://www.seoanseo.dev.cc/digital-marketing/
+  https://www.seoanseo.dev.cc/home/digital-marketing/
 published: true
 post_date: 2018-11-19 13:09:32
 ---

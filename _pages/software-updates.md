@@ -5,7 +5,7 @@ author: SEO Anseo
 post_excerpt: ""
 layout: page
 permalink: >
-  https://www.seoanseo.dev.cc/software-updates/
+  https://www.seoanseo.dev.cc/new-home/website-maintenance/software-updates/
 published: true
 post_date: 2019-05-31 16:17:30
 ---

@@ -9,7 +9,8 @@ post_excerpt: >
   pride in all of our designs and hold
   ourselves to high design standards
 layout: page
-permalink: https://www.seoanseo.dev.cc/web-design/
+permalink: >
+  https://www.seoanseo.dev.cc/home/web-design/
 published: true
 post_date: 2018-10-30 15:33:40
 ---

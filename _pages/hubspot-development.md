@@ -9,7 +9,7 @@ post_excerpt: >
   close customers.
 layout: page
 permalink: >
-  https://www.seoanseo.dev.cc/home/hubspot-development/
+  https://www.seoanseo.dev.cc/new-home/hubspot-development/
 published: true
 post_date: 2019-02-04 15:24:36
 ---

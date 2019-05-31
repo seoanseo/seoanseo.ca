@@ -10,7 +10,7 @@ post_excerpt: >
   we provide a full service.
 layout: page
 permalink: >
-  https://www.seoanseo.dev.cc/website-maintenance/
+  https://www.seoanseo.dev.cc/home/website-maintenance/
 published: true
 post_date: 2018-10-10 10:43:47
 ---

@@ -2,12 +2,7 @@
 ID: 6302
 post_title: Web Development
 author: SEO Anseo
-post_excerpt: >
-  A first-class website conveys to your
-  audience that your business is top
-  quality and trustworthy. We take great
-  pride in all of our designs and hold
-  ourselves to high design standards
+post_excerpt: poop
 layout: page
 permalink: >
   https://www.seoanseo.dev.cc/new-home/web-design/

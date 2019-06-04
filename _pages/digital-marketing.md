@@ -12,8 +12,7 @@ published: true
 post_date: 2018-11-19 13:09:32
 ---
 <div class="color marg-top-bot">
-<div id="x-section-1" class="x-section lesser-width" style="margin: 0px; padding: 45px 0px; background-color: transparent;">[service-side]
-</div>
+<div id="x-section-1" class="x-section lesser-width" style="margin: 0px; padding: 45px 0px; background-color: transparent;">[service-side]</div>
 </div>
 <div class="indent99 lesser-width">
 <div class="green bit">

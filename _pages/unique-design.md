@@ -2,7 +2,14 @@
 ID: 7046
 post_title: 'Unique<br>Design'
 author: SEO Anseo
-post_excerpt: ""
+post_excerpt: >
+  Your business is unique, your website
+  should be too! It needs to announce to
+  the world who you are and what you stand
+  for. So we don’t rest until your site
+  is a beautiful experience for your
+  customers and a perfect reflection of
+  your style and flair!
 layout: page
 permalink: >
   https://www.seoanseo.dev.cc/about/unique-design/

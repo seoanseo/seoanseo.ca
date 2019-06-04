@@ -1,6 +1,6 @@
 ---
 ID: 7046
-post_title: 'Unique<br>Design'
+post_title: Unique Design
 author: SEO Anseo
 post_excerpt: >
   Your business is unique, your website

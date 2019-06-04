@@ -9,7 +9,5 @@ published: true
 post_date: 2018-10-24 09:20:53
 ---
 [service-side]
-
-&lt;h2&gt;Our Values&lt;/h2&gt;
-
+<h2>Our Values</h2>
 [service-tiles]

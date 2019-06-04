@@ -10,4 +10,4 @@ post_date: 2018-10-24 09:20:53
 ---
 [service-side]
 <h2>Our Values</h2>
-[service-tiles]
+[service-side hide="7043"]

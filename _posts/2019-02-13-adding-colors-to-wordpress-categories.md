@@ -31,15 +31,15 @@ Ultimately I'm going to swap out the text input for a color picker, but this is 
 //Create Extra Category Field
 function seo_tax_meta_adder($term) {
      
-      $seo_color = get_term_meta($term->term_id, 'seo_cat_col', true);
-    ?>
-       <tr class="form-field term-name-wrap">
-            <th scope="row"><label for="name">Color</label></th>
-            <td><input type="text" name="seo_cat_col" id="seo_cat_col" value="<?php echo esc_attr($seo_color); ?>">
-        <p class="description"><?php _e('Hex Please'); ?></p></td>
-        </tr>
+      $seo_color = get_term_meta($term-&gt;term_id, 'seo_cat_col', true);
+    ?&gt;
+       &lt;tr class=&quot;form-field term-name-wrap&quot;&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;label for=&quot;name&quot;&gt;Color&lt;/label&gt;&lt;/th&gt;
+            &lt;td&gt;&lt;input type=&quot;text&quot; name=&quot;seo_cat_col&quot; id=&quot;seo_cat_col&quot; value=&quot;&lt;?php echo esc_attr($seo_color); ?&gt;&quot;&gt;
+        &lt;p class=&quot;description&quot;&gt;&lt;?php _e('Hex Please'); ?&gt;&lt;/p&gt;&lt;/td&gt;
+        &lt;/tr&gt;
  
-    <?php
+    &lt;?php
 }
  
  
@@ -69,10 +69,10 @@ add_action('create_category', 'seo_tax_meta_saver', 10, 1);
 <!-- wp:shortcode -->
 [php]// We're using the Yoast 'Primary Category' feature. This part looks for the primary category
 		$wpseo_primary_term = new WPSEO_Primary_Term( 'category', get_the_id() );
-		$wpseo_primary_term = $wpseo_primary_term->get_primary_term();
+		$wpseo_primary_term = $wpseo_primary_term-&gt;get_primary_term();
 		$term = get_term( $wpseo_primary_term );
 // Then we echo our custom meta like so:
-echo get_term_meta($term->term_id, 'seo_cat_col', true);[/php]
+echo get_term_meta($term-&gt;term_id, 'seo_cat_col', true);[/php]
 <!-- /wp:shortcode -->
 
 <!-- wp:paragraph -->
@@ -83,6 +83,6 @@ In our case we're using it for the bottom border of each category:
 <!-- /wp:paragraph -->
 
 <!-- wp:shortcode -->
-[php firstline="87"]echo '<div class="'.$category_class.' category" style="border-bottom-color:'.get_term_meta($term->term_id, 'seo_cat_col', true).';">';
+[php firstline="87"]echo '&lt;div class=&quot;'.$category_class.' category&quot; style=&quot;border-bottom-color:'.get_term_meta($term-&gt;term_id, 'seo_cat_col', true).';&quot;&gt;';
 [/php]
 <!-- /wp:shortcode -->

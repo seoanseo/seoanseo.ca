@@ -33,10 +33,10 @@ function seo_tax_meta_adder($term) {
      
       $seo_color = get_term_meta($term-&amp;gt;term_id, 'seo_cat_col', true);
     ?&amp;gt;
-       &amp;lt;tr class=&quot;form-field term-name-wrap&quot;&amp;gt;
-            &amp;lt;th scope=&quot;row&quot;&amp;gt;&amp;lt;label for=&quot;name&quot;&amp;gt;Color&amp;lt;/label&amp;gt;&amp;lt;/th&amp;gt;
-            &amp;lt;td&amp;gt;&amp;lt;input type=&quot;text&quot; name=&quot;seo_cat_col&quot; id=&quot;seo_cat_col&quot; value=&quot;&amp;lt;?php echo esc_attr($seo_color); ?&amp;gt;&quot;&amp;gt;
-        &amp;lt;p class=&quot;description&quot;&amp;gt;&amp;lt;?php _e('Hex Please'); ?&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;
+       &amp;lt;tr class="form-field term-name-wrap"&amp;gt;
+            &amp;lt;th scope="row"&amp;gt;&amp;lt;label for="name"&amp;gt;Color&amp;lt;/label&amp;gt;&amp;lt;/th&amp;gt;
+            &amp;lt;td&amp;gt;&amp;lt;input type="text" name="seo_cat_col" id="seo_cat_col" value="&amp;lt;?php echo esc_attr($seo_color); ?&amp;gt;"&amp;gt;
+        &amp;lt;p class="description"&amp;gt;&amp;lt;?php _e('Hex Please'); ?&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;
         &amp;lt;/tr&amp;gt;
  
     &amp;lt;?php
@@ -74,7 +74,7 @@ add_action('create_category', 'seo_tax_meta_saver', 10, 1);
 $category_display = $term-&gt;name;
 			$category_link = get_category_link( $term-&gt;term_id );
 			$lowercased = strtolower($category_display);
-		$category_class = str_replace(&quot; &quot;,&quot;-&quot;,$lowercased);
+		$category_class = str_replace(" ","-",$lowercased);
 // Then we echo our custom meta like so:
 echo get_term_meta($term-&amp;gt;term_id, 'seo_cat_col', true);[/php]
 <!-- /wp:shortcode -->
@@ -87,7 +87,7 @@ In our case we're using it for the bottom border of each category:
 <!-- /wp:paragraph -->
 
 <!-- wp:shortcode -->
-[php firstline="87"]echo '&amp;lt;div class=&quot;'.$category_class.' category&quot; style=&quot;border-bottom-color:'.get_term_meta($term-&amp;gt;term_id, 'seo_cat_col', true).';&quot;&amp;gt;';
+[php firstline="87"]echo '&amp;lt;div class="'.$category_class.' category" style="border-bottom-color:'.get_term_meta($term-&amp;gt;term_id, 'seo_cat_col', true).';"&amp;gt;';
 [/php]
 <!-- /wp:shortcode -->
 
@@ -95,14 +95,13 @@ In our case we're using it for the bottom border of each category:
 <p>If you're not using Yoast you could use the below code: </p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>[php]&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
-
-&lt;!-- wp:paragraph --&gt;
-&lt;p&gt;$category = get_the_category(); &lt;br&gt; $term = $category[0];&lt;br&gt; $category_display = $term-&gt;name;&lt;br&gt; $category_link = get_category_link( $term-&gt;term_id );&lt;br&gt; $lowercased = strtolower($category_display);&lt;br&gt; $category_class = str_replace(&quot; &quot;,&quot;-&quot;,$lowercased);&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
-
-&lt;!-- wp:paragraph --&gt;
-&lt;p&gt;[/php]</p>
-<!-- /wp:paragraph -->
+<!-- wp:html -->
+[php]$category = get_the_category(); 
+$term = $category[0];
+		/* END TESTING */
+/* $term = get_term( $wpseo_primary_term ); */
+	$category_display = $term->name;
+			$category_link = get_category_link( $term->term_id );
+			$lowercased = strtolower($category_display);
+		$category_class = str_replace(" ","-",$lowercased);[/php]
+<!-- /wp:html -->

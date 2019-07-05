@@ -31,15 +31,15 @@ Ultimately I'm going to swap out the text input for a color picker, but this is 
 //Create Extra Category Field
 function seo_tax_meta_adder($term) {
      
-      $seo_color = get_term_meta($term-&gt;term_id, 'seo_cat_col', true);
-    ?&gt;
-       &lt;tr class="form-field term-name-wrap"&gt;
-            &lt;th scope="row"&gt;&lt;label for="name"&gt;Color&lt;/label&gt;&lt;/th&gt;
-            &lt;td&gt;&lt;input type="text" name="seo_cat_col" id="seo_cat_col" value="&lt;?php echo esc_attr($seo_color); ?&gt;"&gt;
-        &lt;p class="description"&gt;&lt;?php _e('Hex Please'); ?&gt;&lt;/p&gt;&lt;/td&gt;
-        &lt;/tr&gt;
+      $seo_color = get_term_meta($term-&amp;gt;term_id, 'seo_cat_col', true);
+    ?&amp;gt;
+       &amp;lt;tr class=&quot;form-field term-name-wrap&quot;&amp;gt;
+            &amp;lt;th scope=&quot;row&quot;&amp;gt;&amp;lt;label for=&quot;name&quot;&amp;gt;Color&amp;lt;/label&amp;gt;&amp;lt;/th&amp;gt;
+            &amp;lt;td&amp;gt;&amp;lt;input type=&quot;text&quot; name=&quot;seo_cat_col&quot; id=&quot;seo_cat_col&quot; value=&quot;&amp;lt;?php echo esc_attr($seo_color); ?&amp;gt;&quot;&amp;gt;
+        &amp;lt;p class=&quot;description&quot;&amp;gt;&amp;lt;?php _e('Hex Please'); ?&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/td&amp;gt;
+        &amp;lt;/tr&amp;gt;
  
-    &lt;?php
+    &amp;lt;?php
 }
  
  
@@ -69,14 +69,14 @@ add_action('create_category', 'seo_tax_meta_saver', 10, 1);
 <!-- wp:shortcode -->
 [php]// We're using the Yoast 'Primary Category' feature. This part looks for the primary category
 		$wpseo_primary_term = new WPSEO_Primary_Term( 'category', get_the_id() );
-		$wpseo_primary_term = $wpseo_primary_term-&gt;get_primary_term();
+		$wpseo_primary_term = $wpseo_primary_term-&amp;gt;get_primary_term();
 		$term = get_term( $wpseo_primary_term );
-$category_display = $term->name;
-			$category_link = get_category_link( $term->term_id );
+$category_display = $term-&gt;name;
+			$category_link = get_category_link( $term-&gt;term_id );
 			$lowercased = strtolower($category_display);
-		$category_class = str_replace(" ","-",$lowercased);
+		$category_class = str_replace(&quot; &quot;,&quot;-&quot;,$lowercased);
 // Then we echo our custom meta like so:
-echo get_term_meta($term-&gt;term_id, 'seo_cat_col', true);[/php]
+echo get_term_meta($term-&amp;gt;term_id, 'seo_cat_col', true);[/php]
 <!-- /wp:shortcode -->
 
 <!-- wp:paragraph -->
@@ -87,6 +87,6 @@ In our case we're using it for the bottom border of each category:
 <!-- /wp:paragraph -->
 
 <!-- wp:shortcode -->
-[php firstline="87"]echo '&lt;div class="'.$category_class.' category" style="border-bottom-color:'.get_term_meta($term-&gt;term_id, 'seo_cat_col', true).';"&gt;';
+[php firstline="87"]echo '&amp;lt;div class=&quot;'.$category_class.' category&quot; style=&quot;border-bottom-color:'.get_term_meta($term-&amp;gt;term_id, 'seo_cat_col', true).';&quot;&amp;gt;';
 [/php]
 <!-- /wp:shortcode -->

@@ -67,14 +67,14 @@ add_action('create_category', 'seo_tax_meta_saver', 10, 1);
 <!-- wp:html -->
 [php]// We're using the Yoast 'Primary Category' feature. This part looks for the primary category
 		$wpseo_primary_term = new WPSEO_Primary_Term( 'category', get_the_id() );
-		$wpseo_primary_term = $wpseo_primary_term->get_primary_term();
+		$wpseo_primary_term = $wpseo_primary_term-&gt;get_primary_term();
 $term = get_term( $wpseo_primary_term );
-	$category_display = $term->name;
-			$category_link = get_category_link( $term->term_id );
+	$category_display = $term-&gt;name;
+			$category_link = get_category_link( $term-&gt;term_id );
 			$lowercased = strtolower($category_display);
-		$category_class = str_replace(" ","-",$lowercased);
+		$category_class = str_replace(&quot; &quot;,&quot;-&quot;,$lowercased);
 // Then we echo our custom meta like so:
-echo get_term_meta($term-&amp;gt;term_id, 'seo_cat_col', true);[/php]
+echo get_term_meta($term-&amp;amp;gt;term_id, 'seo_cat_col', true);[/php]
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
@@ -85,7 +85,7 @@ In our case we're using it for the bottom border of each category:
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-[php firstline="87"]echo '<div class="'.$category_class.' category" style="border-bottom-color:'.get_term_meta($term->term_id, 'seo_cat_col', true).';">';
+[php firstline="87"]echo '&lt;div class=&quot;'.$category_class.' category&quot; style=&quot;border-bottom-color:'.get_term_meta($term-&gt;term_id, 'seo_cat_col', true).';&quot;&gt;';
 [/php]
 <!-- /wp:html -->
 
@@ -96,8 +96,8 @@ In our case we're using it for the bottom border of each category:
 <!-- wp:html -->
 [php]$category = get_the_category(); 
 $term = $category[0];
-$category_display = $term->name;
-$category_link = get_category_link( $term->term_id );
+$category_display = $term-&gt;name;
+$category_link = get_category_link( $term-&gt;term_id );
 $lowercased = strtolower($category_display);
-$category_class = str_replace(" ","-",$lowercased);[/php]
+$category_class = str_replace(&quot; &quot;,&quot;-&quot;,$lowercased);[/php]
 <!-- /wp:html -->

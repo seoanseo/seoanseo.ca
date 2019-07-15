@@ -11,7 +11,7 @@ post_date: 2019-05-13 10:19:51
 Services:
 [service-tiles link='on']
 
-&lt;span id="testimonials"&gt;Testimonials:&lt;/span&gt;
+<span id="testimonials">Testimonials:</span>
 
 [seo_scroller]
 

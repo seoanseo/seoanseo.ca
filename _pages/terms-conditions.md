@@ -73,7 +73,7 @@ Once the client has paid us in full for our work we grant to the client a licens
 </ol>
 <ol start="15">
  	<li><strong>SEARCH ENGINES</strong>
-We do not guarantee any specific position in search engine results for the clients website. Unless otherwise arranged we perform basic search engine optimization according to current best practice.</li>
+We do not guarantee any specific position in search engine results for the clients website. Unless otherwise arranged we perform basic technical search engine optimization according to current best practice.</li>
  	<li><strong>SPEED OTIMIZATION
 </strong>We optimize our sites to a <a href="https://gtmetrix.com/">GTmetrix</a> standard. However it should be noted that performance may be limited by your hosting packages and the resources available therein. As content differs from site to site, we make no guarantee of a specific load speed.</li>
  	<li><strong>CONSEQUENTIAL LOSS</strong>
